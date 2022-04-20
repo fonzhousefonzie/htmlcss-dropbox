@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+p{
+    padding: 1rem 0;
+}
+
+img{
+    width: 100%;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.link{
+    padding: 0.5rem 1rem;
+}
+
+.button{
+    background-color: #0061ff;
+    color: white;
+    padding: 0.6rem 1.2rem;
+}
+
+/* Main */
+
+.background.hero{
+    background-color: #b4d0e7;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+
+.relative{
+    position: relative;
+    top: 7rem;
+}
+
+.relative h1{
+    padding-bottom: 3rem;
+}
+
+.col-container{
+    display: flex;
+}
+
+.col-small{
+    width: calc(100% / 3);
+}
+
+.col-large{
+    width: calc((100% / 3) * 2);
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-text{
+    padding: 0 0 2rem;
+}
+
+.col-small a{
+    margin: 0 auto 2rem 0;
+}
+
+.scroll-icon{
+    font-size: 2.5rem;
+    padding: 1.5rem 0 5.5rem;
+}
