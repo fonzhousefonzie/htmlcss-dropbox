@@ -328,3 +328,41 @@ hr{
     justify-content: space-between;
     padding: 1.5rem 0;
 }
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+footer .list{
+    display: flex;
+    padding: 3rem 0;
+}
+
+footer .link-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.link-list h3{
+    padding-bottom: 1.5rem;
+}
+
+.link-list a{
+    margin: 0.5rem 0;
+}
+
+footer hr{
+    width: 10%;
+}
+
+.language a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: lightgray;
+}
