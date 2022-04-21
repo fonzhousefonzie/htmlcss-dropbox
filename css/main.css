@@ -39,6 +39,10 @@ img{
     width: 100%;
 }
 
+ul{
+    list-style: none;
+}
+
 /* -- Header -- */
 
 header{
@@ -46,6 +50,9 @@ header{
     background-color: white;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    min-width: 100%;
+    z-index: 10;
 }
 
 .header-menu{
@@ -59,12 +66,32 @@ header{
 }
 
 .button{
+    padding: 0.6rem 1.2rem;
+    height: max-content;
+}
+
+.prim{
     background-color: #0061ff;
     color: white;
-    padding: 0.6rem 1.2rem;
+}
+
+.sec{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+.ter{
+    color: black;
+    background-color: white;
+    padding: 0.6rem 2rem;
 }
 
 /* -- Main -- */
+
+main{
+    padding-top: 4rem;
+}
 
 /* hero */
 
@@ -121,7 +148,7 @@ header{
 .small-container{
     max-width: 960px;
     margin: auto;
-    padding: 3rem 1rem;
+    padding: 3rem;
 }
 
 .first{
@@ -155,6 +182,8 @@ header{
 
 .card-body{
     padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-price{
@@ -174,14 +203,17 @@ header{
     padding-bottom: 0.5rem;
 }
 
+.card .button{
+    margin: 0 auto;
+}
+
 .sec-link{
     color: #0061ff;
     text-decoration: underline;
     padding: 1rem 0;
 }
 
-.card hr{
-    max-width: 2.5rem;
+hr{
     border-top: 0;
     border-right: 0;
     border-left: 0;
@@ -189,6 +221,110 @@ header{
     margin: 2rem 0;
 }
 
+.width-twentyfive{
+    max-width: 25%;
+}
+
 .card .fa-check{
     color: #0061ff;
+}
+
+.left-large-col{
+    padding-right: 3rem;
+}
+
+.padding-container{
+    
+    padding: 3rem 0 2rem;
+}
+
+.text-container{
+    padding: 2rem 1rem 2rem 0;
+}
+
+.brand-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.brand-square-big{
+    aspect-ratio: 1 / 1 ;
+}
+
+.brand-square{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-logos{
+    max-width: 50%;
+}
+
+.designit{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.arizona{
+    background-color: #61082B;
+}
+
+.florida{
+    background: #0093CE;
+}
+
+.topps{
+    background-color: #FF1C1C;
+}
+
+.bicycle{
+    background-color: #D50020;
+}
+
+.hearst{
+    background-color: #B4D0E7;
+}
+
+.lonely{
+    background-color: #0D2481;
+}
+
+.channel{
+    background-color: #FFD830;
+}
+
+.main-brand{
+    background-color: #F5F5F5;
+    padding: 3rem;
+}
+
+.main-brand svg{
+    width: 50%;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.faq hr{
+    margin: 0.5rem;
+}
+
+.faq h3{
+    display: inline;
+}
+
+.faq a{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
 }
