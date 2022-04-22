@@ -1,0 +1,27 @@
+a:hover{
+    background: rgba(200,200,200, 0.5);
+}
+
+.logo:hover{
+    background-color: transparent;
+}
+
+.button:hover{
+    background-color: #0061ff;
+    border-color: #0061ff;
+    color: white;
+}
+
+.button.prim:hover{
+    background-color: #3884ff;
+}
+
+.sec-link:hover{
+    background-color: transparent;
+    text-decoration-color: #8db9ff;
+}
+
+footer a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
