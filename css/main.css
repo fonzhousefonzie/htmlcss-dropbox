@@ -63,6 +63,10 @@ header{
     margin: auto;
 }
 
+.logo{
+    padding: 0 1rem;
+}
+
 .link{
     padding: 0.5rem 1rem;
 }
