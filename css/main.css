@@ -47,6 +47,7 @@ ul{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +60,7 @@ header{
     display: flex;
     align-items: center;
     padding: 1rem;
+    margin: auto;
 }
 
 .link{
@@ -102,6 +104,7 @@ main{
 .container{
     max-width: 1024px;
     margin: auto;
+    padding: 0 1rem;
 }
 
 .relative{
@@ -115,10 +118,15 @@ main{
 
 .col-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-small{
     width: calc(100% / 3);
+    min-width: 200px;
+    flex-grow: 1;
 }
 
 .col-large{
@@ -173,6 +181,7 @@ main{
 
 .long{
     width: calc((100% / 3) - (4rem / 3));
+    min-width: 160px;
 }
 
 .card-header{
@@ -184,6 +193,7 @@ main{
     padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
+    overflow-wrap: break-word;
 }
 
 .card-price{
@@ -243,12 +253,15 @@ hr{
 }
 
 .brand-section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .brand-square-big{
     aspect-ratio: 1 / 1 ;
+    width: calc(100% / 3);
+    min-width: 310px;
 }
 
 .brand-square{
@@ -257,6 +270,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .row{
@@ -310,11 +324,6 @@ hr{
     width: 50%;
 }
 
-.banner{
-    display: flex;
-    align-items: center;
-}
-
 .faq hr{
     margin: 0.5rem;
 }
@@ -339,13 +348,15 @@ footer{
 
 footer .list{
     display: flex;
+    flex-wrap: wrap;
     padding: 3rem 0;
 }
 
 footer .link-list{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex-basis: 198px;
+    padding: 1rem 0;
 }
 
 .link-list h3{
