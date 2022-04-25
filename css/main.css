@@ -55,12 +55,12 @@ header{
     position: fixed;
     min-width: 100%;
     z-index: 10;
+    text-align: center;
 }
 
 .header-menu{
     display: flex;
     align-items: center;
-    margin: auto;
 }
 
 .logo{
@@ -239,7 +239,7 @@ hr{
     max-width: 25%;
 }
 
-.card .fa-check{
+.fa-check{
     color: #0061ff;
 }
 
